@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "github.thelawf.xmmui.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "XMMUI.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

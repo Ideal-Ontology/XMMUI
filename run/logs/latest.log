@@ -1,0 +1,641 @@
+[07一月2024 00:45:59.547] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mixin.config, xmmui.mixins.json, --gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.39, --assetIndex, 1.16, --assetsDir, C:\Users\IdealOntology\.gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[07一月2024 00:45:59.550] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_372 by Temurin
+[07一月2024 00:45:59.851] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[07一月2024 00:45:59.888] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/IdealOntology/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[07一月2024 00:46:01.102] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\IdealOntology\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[07一月2024 00:46:01.143] [main/WARN] [mixin/]: Reference map 'XMMUI.refmap.json' for xmmui.mixins.json could not be read. If this is a development environment you can ignore this message
+[07一月2024 00:46:05.458] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07一月2024 00:46:06.187] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[07一月2024 00:46:06.286] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[07一月2024 00:46:06.926] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[07一月2024 00:46:06.926] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[07一月2024 00:46:08.058] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[07一月2024 00:46:08.112] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[07一月2024 00:46:08.160] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07一月2024 00:46:09.140] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.2.39 Target: 36.2.41
+[07一月2024 00:46:12.033] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[07一月2024 00:46:12.034] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[07一月2024 00:46:12.197] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[07一月2024 00:46:12.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[07一月2024 00:46:12.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[07一月2024 00:46:12.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[07一月2024 00:46:12.257] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[07一月2024 00:46:12.258] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[07一月2024 00:46:12.258] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[07一月2024 00:46:12.492] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[07一月2024 00:46:12.494] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[07一月2024 00:46:12.494] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[07一月2024 00:46:13.053] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[07一月2024 00:46:26.754] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07一月2024 00:46:26.754] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07一月2024 00:46:26.755] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07一月2024 00:46:26.755] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07一月2024 00:46:26.755] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07一月2024 00:46:26.758] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.16.5-36.2.39_mapped_snapshot_20210309-1.16.5-recomp.jar
+[07一月2024 00:46:27.111] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[07一月2024 00:46:27.459] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[07一月2024 00:46:27.534] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[07一月2024 00:46:27.828] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07一月2024 00:46:27.828] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07一月2024 00:46:27.830] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07一月2024 00:46:27.830] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07一月2024 00:46:27.831] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07一月2024 00:46:27.831] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.16.5-36.2.39_mapped_snapshot_20210309-1.16.5-recomp.jar
+[07一月2024 00:46:28.178] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[07一月2024 00:46:28.403] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[07一月2024 00:46:28.420] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[07一月2024 00:46:28.895] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07一月2024 00:46:28.920] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.5
+[07一月2024 00:46:28.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07一月2024 00:46:29.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07一月2024 00:46:29.750] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：0%
+[07一月2024 00:46:29.902] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：17%
+[07一月2024 00:46:30.719] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：83%
+[07一月2024 00:46:30.886] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：95%
+[07一月2024 00:46:31.345] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1966 ms
+[07一月2024 00:46:31.614] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[07一月2024 00:46:32.786] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[07一月2024 00:46:32.813] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@51674b3b
+[07一月2024 00:46:32.825] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:0ce90d0b] logged in with entity id 170 at (103.01493094189678, 71.0, 213.66695568262992)
+[07一月2024 00:46:32.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
+[07一月2024 00:46:33.145] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[07一月2024 00:46:33.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[07一月2024 00:46:33.262] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[07一月2024 00:46:33.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[07一月2024 00:46:33.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[07一月2024 00:46:40.848] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.848] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.854] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.854] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.862] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.862] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.872] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.872] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.879] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.879] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.880] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[07一月2024 00:46:40.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[07一月2024 00:46:40.888] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.888] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.898] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.898] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.920] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.921] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.929] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.929] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.937] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.937] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.946] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.946] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.954] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.954] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[07一月2024 00:46:40.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[07一月2024 00:46:40.963] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.963] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.971] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.972] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.979] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.979] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.988] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.988] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.997] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:40.997] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.005] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.006] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.016] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.016] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.025] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.025] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.033] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.034] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.042] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.042] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.050] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.051] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.059] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.059] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.068] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.068] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.076] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.076] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.084] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.085] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.095] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.095] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.103] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.103] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.112] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.112] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.120] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.121] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.129] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.129] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.138] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.138] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.146] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.146] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.155] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.155] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.165] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.165] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.173] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.173] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.181] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.181] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.189] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.189] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.197] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.197] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.206] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.206] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.215] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.215] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.223] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.223] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.231] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.232] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.241] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.241] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.250] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.250] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.258] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.258] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.267] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.268] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.275] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.275] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.283] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.283] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.293] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.294] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.302] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.303] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.311] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.311] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.320] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.320] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.328] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.328] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.337] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.338] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.346] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.346] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.354] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.355] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.363] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.363] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.372] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.372] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.381] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.381] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.388] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.389] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.397] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.397] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.407] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.407] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.415] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.415] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.423] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.424] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.431] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.431] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.441] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.441] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.448] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.449] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.457] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.458] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.466] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.467] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.474] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.474] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.484] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.484] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.491] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.492] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.501] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.501] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.509] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.509] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.519] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.519] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.526] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.526] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.535] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.535] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.542] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.542] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.551] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.551] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.559] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.560] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.568] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.568] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.576] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.577] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.585] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.587] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.594] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.594] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.603] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.603] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.610] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.611] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.619] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.621] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.629] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.629] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.637] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.637] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.646] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.646] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.654] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.654] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.663] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.663] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.672] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.672] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.681] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.681] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.689] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.689] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.697] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.698] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.705] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.705] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.713] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.714] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.721] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.722] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.729] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.729] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.738] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.738] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.747] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.747] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.755] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.756] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.763] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.763] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.771] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.771] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.780] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.780] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.788] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.789] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.797] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.797] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.806] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.806] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.814] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.815] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.824] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.824] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.831] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.832] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.839] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.839] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.848] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.848] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.858] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.858] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.867] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.867] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.874] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.874] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.883] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.883] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.890] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.891] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.900] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.901] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.907] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.908] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.917] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.917] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.925] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.925] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.935] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.936] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.943] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.943] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.952] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.952] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.961] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.961] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.970] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.970] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.977] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.977] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.985] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.985] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.994] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:41.994] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.002] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.003] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.012] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.012] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.020] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.020] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.028] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.028] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.036] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.036] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.044] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.044] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.053] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.053] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.061] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.061] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.069] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.069] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.078] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.078] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.087] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.087] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.095] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.096] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.104] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.104] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.113] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.113] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.121] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.121] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.130] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.131] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.138] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.138] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.148] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.148] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.157] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.157] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.165] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.166] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.173] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.173] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.182] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.182] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.192] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.193] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.202] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.202] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.209] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.209] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.219] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.219] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.226] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.227] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.234] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.234] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.243] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.244] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.251] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.252] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.261] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.261] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.270] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.270] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.277] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.277] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.286] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.286] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.294] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.294] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.303] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.303] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.314] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.314] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.325] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.325] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.332] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.332] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.341] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.341] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.348] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.349] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.358] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.358] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.366] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.366] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.373] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.374] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.383] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.383] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.393] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.393] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.400] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.400] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.409] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.409] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.418] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.418] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.426] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.426] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.434] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.434] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.443] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.443] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.450] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.452] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.459] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.459] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.468] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.468] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.476] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.476] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.484] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.484] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.492] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.492] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.501] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.501] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.509] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.509] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.519] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.519] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.526] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.526] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.534] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.534] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.543] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.543] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.552] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.552] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.559] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.559] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.568] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.568] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.576] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.576] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.584] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.584] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.593] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.593] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.601] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.601] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.610] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.610] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.618] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.619] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.626] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.626] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.636] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.636] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.644] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.644] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.653] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.653] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.661] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.661] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.671] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.671] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.678] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.678] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.685] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.686] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.694] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.695] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.702] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.702] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.711] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.711] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.719] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.719] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.728] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.728] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.736] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.736] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.745] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.745] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.755] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.755] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.764] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.764] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.771] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.771] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.779] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.779] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.789] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.790] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.797] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.798] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.806] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.806] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.814] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.814] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.823] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.823] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.832] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.832] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.840] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.840] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.848] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.849] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.858] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.859] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.867] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.867] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.875] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.875] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.886] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.886] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.893] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.894] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.902] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.902] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.910] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.910] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.919] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.921] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.928] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.928] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.936] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.936] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.945] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.946] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.955] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.955] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.964] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.964] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.972] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.972] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.980] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.980] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.989] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.989] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.998] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:42.998] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.006] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.006] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.014] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.014] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.023] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.024] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.032] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.032] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.041] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.041] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.048] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.048] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.057] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.057] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.068] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.068] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.074] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.075] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.083] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.083] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.091] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.092] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.100] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.100] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.108] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.109] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.117] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.118] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.125] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.125] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.134] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.135] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.145] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.145] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.152] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.152] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.160] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.160] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.169] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.170] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.178] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.178] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.186] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.186] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.195] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.195] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.202] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.203] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.214] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.214] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.221] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:43.221] [Render thread/INFO] [github.thelawf.xmmui.client.XMMUIScreen/]: width: 480, height: 248
+[07一月2024 00:46:44.529] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[07一月2024 00:46:44.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[07一月2024 00:46:44.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[07一月2024 00:46:44.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[07一月2024 00:46:58.436] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: 连接中止
+[07一月2024 00:46:58.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev退出了游戏
+[07一月2024 00:46:58.446] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[07一月2024 00:46:58.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07一月2024 00:46:58.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07一月2024 00:46:58.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07一月2024 00:46:58.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[07一月2024 00:46:58.659] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新的世界): All chunks are saved
+[07一月2024 00:46:58.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[07一月2024 00:46:58.659] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07一月2024 00:46:58.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[07一月2024 00:46:58.659] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07一月2024 00:46:58.669] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新的世界): All chunks are saved
+[07一月2024 00:46:58.672] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07一月2024 00:46:58.672] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07一月2024 00:46:59.528] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

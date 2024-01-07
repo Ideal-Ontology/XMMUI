@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xmmui>
+    <text_label align="x_centered" y="50">
+        gui.xmmui.test_screen.title
+    </text_label>
+    <text_label x="100" y="200">
+        gui.xmmui.test_screen.body
+    </text_label>
+</xmmui>

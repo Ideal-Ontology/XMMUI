@@ -19,11 +19,6 @@ public class XMMUICommand implements Command<CommandSource> {
 
     @Override
     public int run(CommandContext context) throws CommandSyntaxException {
-        try {
-            UIHelper.displayXMMUI();
-        } catch (DocumentException e) {
-            throw new RuntimeException(e);
-        }
-        return 1;
+        return 0;
     }
 }

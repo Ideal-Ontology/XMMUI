@@ -5,6 +5,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.resources.IResource;
 import net.minecraft.util.ResourceLocation;
 import org.dom4j.DocumentException;
+import org.dom4j.Element;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,5 +30,13 @@ public class UIHelper {
         minecraft.displayGuiScreen(new XMMUIScreen(XMMUI.withTranslation("gui", "title"),
                 getXMLText(new ResourceLocation(XMMUI.MOD_ID, "xmmui/test.xml"))) {
         });
+    }
+
+    public static String getOrDefault(Element element, String attribute, String defaultValue) {
+        return element.attributeValue(attribute) == null ? defaultValue : element.attributeValue(attribute);
+    }
+
+    public static ResourceLocation getOrDefaultRL(Element element) {
+        return new ResourceLocation(getOrDefault(element, "container", "xmmui.test_container"));
     }
 }

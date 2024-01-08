@@ -3,6 +3,7 @@ package github.thelawf.xmmui;
 import github.thelawf.xmmui.common.command.XMMUICommand;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegisterCommandsEvent;
@@ -41,6 +42,9 @@ public class XMMUI {
         }
     }
 
+    public static ResourceLocation withRL(String modid, String path){
+        return new ResourceLocation(modid, path);
+    }
     public static String withAffix(String prefix, String suffix) {
         return prefix + "." + MOD_ID + "." + suffix;
     }
